@@ -1,0 +1,110 @@
+.new-item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.add-item-card {
+    border: 1px solid #ccc;
+    padding: 40px;
+    margin-top: 20px;
+    width: 400px;
+    /* Adjust the width as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-item-card form {
+    width: 100%;
+}
+
+.add-item-card label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.add-item-card input,
+.add-item-card textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+
+/* .add-item-card button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  } */
+
+.add-item-button {
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.add-item-card button {
+    background-color: #28a745;
+    /* Updated color */
+    color: #fff;
+    padding: 15px 30px;
+    /* Larger padding for the button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.added-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    text-align: left;
+    width: 300px;
+}
+
+.item h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.item p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.item img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.item .buy-button {
+    background-color: #28a745;
+    /* Updated color */
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
